@@ -1,17 +1,19 @@
-# todo_app
+# Flutter To-Do App
 
-A new Flutter project.
+A to-do app built with Flutter and Dart.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Add, edit, delete and complete tasks
+- Filter: All / Active / Done
+- Search tasks
+- Tasks are saved locally with shared_preferences
 
-A few resources to get you started if this is your first Flutter project:
+## Run
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+flutter pub get
+flutter run -d chrome
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Tech
+
+Flutter, Dart, shared_preferences
